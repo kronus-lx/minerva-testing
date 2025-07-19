@@ -1,0 +1,15 @@
+{
+    "name": "joelmanning/minerva",
+    "autoload": {
+        "psr-4": {
+            "Joelmanning\\Minerva\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "joelmanning",
+            "email": "joelem2@hotmail.com"
+        }
+    ],
+    "require": {}
+}
