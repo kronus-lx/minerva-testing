@@ -36,7 +36,7 @@ COPY . /var/www/html
 WORKDIR /var/www/html/server
 
 # Install Composer dependencies
-RUN composer install --optimize-autoloader --no-interaction --no-dev
+RUN composer require --optimize-autoloader --no-interaction
 
 # Expose port
 EXPOSE 80
